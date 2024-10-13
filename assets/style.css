@@ -900,6 +900,10 @@ font-size: 0.9rem;
     .feature-item {
       max-width: none;
     }
+
+     .feature-item:not(:last-child)::after {
+        display: none;
+    }
   
     .cta-box {
       padding: 2rem;
